@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db", "db", "{692729D6-7A5E-41BF-BFC6-C9E169EE9EB5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Telegram_Bot", "Telegram_Bot", "{126A61F3-AB2B-4497-95AD-64A6DFDD4304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "db1", "db1\db1.csproj", "{4CF9EF64-91DF-4A5A-8039-0C48F051C093}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db2", "db2", "{1C0D01CA-CA61-42BD-A84C-C80E835E223E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{86F4AED8-0B6E-4D85-BB2E-A15E3A79EBA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insta_Send_Vido", "Insta_Send_Vido\Insta_Send_Vido.csproj", "{C07B6329-CAB6-4CD9-B68B-2E3976914CCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,21 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4CF9EF64-91DF-4A5A-8039-0C48F051C093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4CF9EF64-91DF-4A5A-8039-0C48F051C093}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4CF9EF64-91DF-4A5A-8039-0C48F051C093}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4CF9EF64-91DF-4A5A-8039-0C48F051C093}.Release|Any CPU.Build.0 = Release|Any CPU
-		{86F4AED8-0B6E-4D85-BB2E-A15E3A79EBA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86F4AED8-0B6E-4D85-BB2E-A15E3A79EBA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86F4AED8-0B6E-4D85-BB2E-A15E3A79EBA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86F4AED8-0B6E-4D85-BB2E-A15E3A79EBA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07B6329-CAB6-4CD9-B68B-2E3976914CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07B6329-CAB6-4CD9-B68B-2E3976914CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07B6329-CAB6-4CD9-B68B-2E3976914CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07B6329-CAB6-4CD9-B68B-2E3976914CCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4CF9EF64-91DF-4A5A-8039-0C48F051C093} = {692729D6-7A5E-41BF-BFC6-C9E169EE9EB5}
-		{86F4AED8-0B6E-4D85-BB2E-A15E3A79EBA0} = {1C0D01CA-CA61-42BD-A84C-C80E835E223E}
+		{C07B6329-CAB6-4CD9-B68B-2E3976914CCC} = {126A61F3-AB2B-4497-95AD-64A6DFDD4304}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF1E82C3-7F64-4180-BBFF-4B72FAD683EA}
