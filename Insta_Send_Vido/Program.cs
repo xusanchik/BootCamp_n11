@@ -51,10 +51,10 @@ async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, Cancel
         cancellationToken: cancellationToken);
 
     }
-    Message sentMessage2 = await botClient.SendVideoAsync(
-    chatId: chatId,
-    video: $"{replacePhotoMesage}",
-    cancellationToken: cancellationToken);
+    //Message sentMessage2 = await botClient.SendVideoAsync(
+    //chatId: chatId,
+    //video: $"{replacePhotoMesage}",
+    //cancellationToken: cancellationToken);
 }
 
 Task HandlePollingErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
@@ -65,7 +65,6 @@ Task HandlePollingErrorAsync(ITelegramBotClient botClient, Exception exception, 
             => $"Telegram API Error:\n[{apiRequestException.ErrorCode}]\n{apiRequestException.Message}",
         _ => exception.ToString()
     };
-
     Console.WriteLine(ErrorMessage);
     return Task.CompletedTask;
 }

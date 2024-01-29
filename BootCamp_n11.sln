@@ -5,7 +5,13 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Telegram_Bot", "Telegram_Bot", "{126A61F3-AB2B-4497-95AD-64A6DFDD4304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insta_Send_Vido", "Insta_Send_Vido\Insta_Send_Vido.csproj", "{C07B6329-CAB6-4CD9-B68B-2E3976914CCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insta_Send_Vido", "Insta_Send_Vido\Insta_Send_Vido.csproj", "{C07B6329-CAB6-4CD9-B68B-2E3976914CCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2497B0C0-44AE-4299-BD2D-8AFCCF6191F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "One_To_Many", "One_To_Many", "{8D7021AF-626A-4ED7-81A1-A859550444E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One_to_Many", "One_to_Many\One_to_Many.csproj", "{91CD2823-8E4D-4879-BA30-E275CAC82704}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +23,17 @@ Global
 		{C07B6329-CAB6-4CD9-B68B-2E3976914CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C07B6329-CAB6-4CD9-B68B-2E3976914CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C07B6329-CAB6-4CD9-B68B-2E3976914CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CD2823-8E4D-4879-BA30-E275CAC82704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CD2823-8E4D-4879-BA30-E275CAC82704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CD2823-8E4D-4879-BA30-E275CAC82704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CD2823-8E4D-4879-BA30-E275CAC82704}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C07B6329-CAB6-4CD9-B68B-2E3976914CCC} = {126A61F3-AB2B-4497-95AD-64A6DFDD4304}
+		{91CD2823-8E4D-4879-BA30-E275CAC82704} = {8D7021AF-626A-4ED7-81A1-A859550444E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF1E82C3-7F64-4180-BBFF-4B72FAD683EA}
