@@ -101,7 +101,7 @@ class Program
         Console.WriteLine("Qaysi id ozgarrtirmoqchisz");
         string id = Console.ReadLine();
 
-        Console.WriteLine("Qaysi columinini");
+        Console.WriteLine("Qaysi columinini");  
         string column = Console.ReadLine();
 
         Console.WriteLine("Ozgarishni kiriti");
