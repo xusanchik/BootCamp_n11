@@ -89,7 +89,7 @@ namespace Task1.Solutions
             connection.Open();
             GetAll();
             Console.WriteLine("Qaysi id Ochirmoxchisz");
-             var id = Console.ReadLine();
+            var id = Console.ReadLine();
 
             string query = $"delete from inventory where Id='{id}'";
             using NpgsqlCommand cmd = new NpgsqlCommand(query, connection);
@@ -213,7 +213,7 @@ namespace Task1.Solutions
             cmd.ExecuteNonQuery();
             Console.WriteLine("success");
         }
-        public static void JoinTwoTables()
+        public static void JoinTwoTables(object result)
         {
             string connectionString = "Host=localhost;Port=5432;Database=Lesson;User Id=postgres;Password=A321a321;";
 

@@ -2,5 +2,19 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../C#/AdminPageinMVC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../C#/CQRS_Mediator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../C#/FullstackProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DB_Context" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Home_Task/Ado_net_Dapper_CRUD_API" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Home_Tasks/HandsOnLinq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Home_Tasks/LINQ" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../LINQLess" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../N03/Tasks/Task01/T02/CRUD.ConsoleApplication" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../N03/Tasks/Task01/T02/Contact" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../N03/Tasks/Task01/T02/Qorovul_Bot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../N03/Tasks/Task01/T02/SendPathFile" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../N03/Tasks/Task01/T02/T_G_task1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../N03/Tasks/Task01/T02/Valyuta_TG" vcs="Git" />
   </component>
 </project>
