@@ -233,7 +233,7 @@ namespace Task1.Solutions
 
             // using NpgsqlCommand c
             {
-                Console.WriteLine("{0,-3} {1,-50} {2}", result[0], result[1], result[2]);
+                //Console.WriteLine("{0,-3} {1,-50} {2}", result[0], result[1], result[2]);
             }
         }
     }
