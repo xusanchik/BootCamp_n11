@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NajotAPi", "NajotAPi\NajotA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFremworkCore", "EntityFremworkCore", "{E715153A-25F2-45A7-9A79-531FADC05962}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntiryPremworkCore", "EntiryPremworkCore\EntiryPremworkCore.csproj", "{B51EB88E-B36F-4A11-8207-7E3817550B19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntiryPremworkCore", "EntiryPremworkCore\EntiryPremworkCore.csproj", "{B51EB88E-B36F-4A11-8207-7E3817550B19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS.Mediatr", "CQRS.Mediatr", "{20823738-4080-4BC1-8675-36A013171781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
